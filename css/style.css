@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+}
+header {
+	padding: 37px 0;
+}
+p {
+	color: #000000e0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.logo {
+	flex-basis: 20%;
+	max-width: 20%;
+}
+.menu {
+	flex-basis: 80%;
+	max-width: 80%;
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li a {
+	color: #1b0f0fde;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: sans-serif;
+	display: block;
+    padding-left: 120px;
+}
+.menu ul li:hover a {
+	color: #95afc0a8;
+	transition-duration: 0.4s;
+}
+
+
+/*background images*/
+.banner-img img {
+	width: 100%;
+}
+
+
+/*getaway*/
+.getaway {
+	padding: 75px 0;
+	font-family: sans-serif;
+}
+.wraper {
+    width: 77%;
+    margin: auto;
+}
+.getaway a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #676161;
+	font-size: 15px;
+}
+.getaway h1 {
+	font-weight: normal;
+	font-size: 32px;
+	color: #000000d1;
+	margin: 27px 0;
+	font-family: tahoma;
+}
+.getaway p {
+	line-height: 25px;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+
+/*portfolio*/
+.portfolio {
+	padding: 16px 0 85px;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: sans-serif;
+}
+.coffee {
+	flex-basis: 47%;
+	max-width: 47%;
+}
+.coffee img {
+	width: 100%;
+}
+.coffee a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #676161;
+	font-size: 15px;
+	display: block;
+	margin-top: 33px;
+}
+.coffee h1 {
+	font-weight: normal;
+    font-size: 28px;
+    color: #000000d1;
+    margin: 25px 0;
+    font-family: tahoma;
+}
+.coffee p {
+	line-height: 23px;
+	margin: 0;
+}
+
+
+/*footer*/
+.footer-area {
+	background: #bdc3c761;
+	padding: 30px 0;
+	font-family: sans-serif;
+}
+.footer-menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+.terms {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+.terms ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.terms ul li {
+	margin-right: 16px;
+}
+.icon {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+.icon ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+	display: flex;
+}
+.icon ul li {
+	margin-left: 16px;
+}
+.footer-area a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
